@@ -1,0 +1,10 @@
+{
+  "name": "amymccann-message-web",
+  "domain": "amymccann-messages.xf.mkrs.link",
+  "port": 5000,
+  "env": {
+    "APP_ENV": "PRODUCTION",
+    "POSTGRES_HOSTNAME": "amymccann-message-database",
+    "POSTGRES_PASSWORD": "@amymccann-postgres-password"
+  }
+}

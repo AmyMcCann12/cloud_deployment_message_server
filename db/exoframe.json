@@ -1,0 +1,10 @@
+{
+  "name": "amymccann-message-database",
+  "domain": false,
+  "hostname": "amymccann-message-database",
+  "image": "postgres:12",
+  "env": {
+    "POSTGRES_PASSWORD": "@amymccann-postgres-password"
+  },
+  "volumes": ["amymccann_message_database_volume:/var/lib/postgresql/data"]
+}
